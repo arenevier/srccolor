@@ -1,0 +1,83 @@
+/*
+ * based on vs.css from highlight.js
+ */
+
+code {
+  display: block; padding: 0.5em;
+}
+
+.comment,
+.annotation,
+.template_comment,
+.diff .header,
+.chunk,
+.apache .cbracket {
+  color: rgb(0, 128, 0);
+}
+
+.keyword,
+.id,
+.title,
+.built_in,
+.aggregate,
+.smalltalk .class,
+.winutils,
+.bash .variable,
+.tex .command {
+  color: rgb(0, 0, 255);
+}
+
+.string,
+.title,
+.parent,
+.tag .value,
+.rules .value,
+.rules .value .number,
+.ruby .symbol,
+.ruby .symbol .string,
+.ruby .symbol .keyword,
+.ruby .symbol .keymethods,
+.instancevar,
+.aggregate,
+.template_tag,
+.django .variable,
+.addition,
+.flow,
+.stream,
+.apache .tag,
+.date,
+.tex .formula {
+  color: rgb(163, 21, 21);
+}
+
+.ruby .string,
+.decorator,
+.filter .argument,
+.localvars,
+.array,
+.attr_selector,
+.pseudo,
+.pi,
+.doctype,
+.deletion,
+.envvar,
+.shebang,
+.preprocessor,
+.userType,
+.apache .sqbracket,
+.nginx .built_in,
+.tex .special,
+.input_number {
+  color: rgb(43, 145, 175);
+}
+
+.phpdoc,
+.javadoc,
+.xmlDocTag {
+  color: rgb(128, 128, 128);
+}
+
+.vhdl .type { font-weight: bold; }
+.vhdl .string { color: #666666; }
+.vhdl .literal { color: rgb(163, 21, 21); }
+
